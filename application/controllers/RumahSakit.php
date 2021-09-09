@@ -44,4 +44,4 @@ class RumahSakit extends CI_Controller {
 	{
 		$this->model_rumah_sakit->delete_rumah_sakit($id);
 	}
-}
+} 

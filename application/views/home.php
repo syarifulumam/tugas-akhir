@@ -27,7 +27,7 @@
       "</br><?= $rs->nomor_telepon ?>" +
       "</br><a href='<?= base_url('rumahsakit/detail') ?>'><button class='btn btn-primary btn-block mt-2'>detail</button></a>" 
     );
-  <?php } ?>
+  <?php } ?> 
   
   //GeoJSON
   L.geoJSON(tangerang).addTo(mymap);

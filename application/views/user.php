@@ -21,7 +21,7 @@
   var iconRumahSakit = L.icon({
     iconUrl: "<?= base_url('upload/icon/icon.png') ?>",
     iconSize:     [25, 35]
-  });
+  }); 
   <?php foreach ($rumahsakit as $rs){ ?>
     L.marker([<?= $rs->latitude ?>, <?= $rs->longitude ?>],{icon: iconRumahSakit}).addTo(mymap)
     .bindPopup(

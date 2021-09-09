@@ -23,7 +23,7 @@
     } else {
         console.lof("Geolocation is not supported by this browser.");
     }
-    }
+    } 
 
     function showPosition(position) {
         latitud.innerHTML = position.coords.latitude;

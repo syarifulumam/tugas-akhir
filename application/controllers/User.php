@@ -14,3 +14,4 @@ class User extends CI_Controller {
 		$this->template->load('user_template','detail_rumah_sakit',$data);
 	}
 }
+ 

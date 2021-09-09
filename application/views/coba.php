@@ -27,7 +27,7 @@
             waypoints: [latLng1,latLng2], // (start , end)
             routeWhileDragging: false,
         }).addTo(mymap);
-    }
+    } 
 
 
 

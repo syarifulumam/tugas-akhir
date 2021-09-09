@@ -103,7 +103,7 @@ marker.setLatLng(position,{
 $("#Latitude, #Longitude").change(function(){
 	var position =[parseInt($("#Latitude").val()), parseInt($("#Longitude").val())];
 	marker.setLatLng(position, {
-	draggable : 'true'
+	draggable : 'true' 
 	}).bindPopup(position).update();
 	mymap.panTo(position);
 });

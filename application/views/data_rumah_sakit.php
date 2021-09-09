@@ -20,7 +20,7 @@
                         <th>nomor telepon</th>
                         <th>Aksi</th>
                     </tr>
-                </thead>
+                </thead> 
                 <tbody>
                     <?php $no = 1; foreach ($rumahsakit as $rs):?>
                     <tr>

@@ -8,7 +8,7 @@ class Home extends CI_Controller {
 		$data['rumahsakit'] = $this->model_rumah_sakit->getdata();
 		$this->template->load('admin_template','home',$data);
 	}
-	public function coba(){
+	public function coba(){ 
 		$this->template->load('admin_template','coba');
 	}
 }

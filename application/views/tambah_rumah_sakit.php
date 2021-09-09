@@ -123,5 +123,5 @@ mymap.on("click", function(e) {
     $("#Latitude").val(lat);
 	  $("#Longitude").val(lng);
 });
-
+ 
 </script>

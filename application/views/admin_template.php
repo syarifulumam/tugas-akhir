@@ -37,7 +37,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>   
   <!-- GeoJSON kota tangerang -->
   <script src="<?= base_url('assets/geojson/') ?>tangerang.js"></script>
-
+ 
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">

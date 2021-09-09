@@ -19,7 +19,7 @@ class Model_rumah_sakit extends CI_Model {
 		$config['max_height']           = 768;
 
 		$this->load->library('upload', $config);
-
+ 
 		if ( ! $this->upload->do_upload('foto'))
 		{
 			redirect('rumahsakit/tambah_rumah_sakit');
